@@ -1,5 +1,7 @@
 a=input()
 if(a%2==0):
 	print("even")
-elif(a%2!=0):
+else:
 	print("odd")
+else:
+	print("invalid")
